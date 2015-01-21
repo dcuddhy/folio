@@ -3,72 +3,32 @@
 <center>  <h2>Projects</h2> </center>
 <br>
 
+<div class="clearfix">
+  <div class="projects">
+    {{#each}}
+    <div class = "lift-left">
+      <h3>{{name}}</h3>
+      {{{desc}}}
+    </div>
+    <div class = "drop-left">
+      &nbsp;
+    </div>
+    <div class = "wrap-left">
+    </div>
+    {{/each}}
+  </div>
 
-<div class = "lift">
-  <h3>The Beard Club</h3>
-  Ruby on Rails, Twitter Bootstrap, Custom CSS, Permissions <br>
-  APIs - Facebook, Tumblr, Flickr, Instagram, 500px, 4,100 followers <br>
+  <div class="trainings">
+    {{#each training in trainings}}
+    <div class = "lift-right">
+      <h3>{{title}}</h3>
+      {{{text}}}
+    </div>
+    <div class = "drop-right">
+      &nbsp;
+    </div>
+    <div class = "wrap-right">
+    </div>
+    {{/each}}
+  </div>
 </div>
-<div class = "drop">
-    &nbsp;
-</div>
-<div class = "wrap-left">
-</div>
-
-<div class = "lift">
-  <h3>Drew Cuddhy Photography</h3>
-  Custom CSS, JavaScript, Wordpress, Storefront <br>
-  Eye-Fi Inegration through Flickr for live blogging events.<br>
-</div>
-<div class = "drop">
-  &nbsp;
-</div>
-<div class = "wrap-left">
-</div>
-
-<div class = "lift">
-  <h3>Rantly</h3>
-  Ruby on Rails, Javascript, Mustache, Custom CSS <br>
-  Like Twitter, but better.
-</div>
-<div class = "drop">
-  &nbsp;
-</div>
-<div class = "wrap-left">
-</div>
-
-<div class = "lift">
-  <h3>gCamp</h3>
-  Ruby on Rails, Twitter Bootsrap, Extensive Associations & Permissions <br>
-  A Rails app that has some of the same functionality as Basecamp.
-</div>
-<div class = "drop">
-  &nbsp;
-</div>
-<div class = "wrap-left">
-</div>
-
-<div class = "lift">
-  <h3>Music Player</h3>
-  Mustache, AJAX, HTML5 Audio & CSS.
-  A simple music player.
-</div>
-<div class = "drop">
-  &nbsp;
-</div>
-<div class = "wrap-left">
-</div>
-
-<div class = "lift">
-  <h3>Snipits Template</h3>
-  CSS, SASS, Mustache, Awesome Bootsrap,
-  A Jekyll template.
-</div>
-<div class = "drop">
-  &nbsp;
-</div>
-<div class = "wrap-left">
-</div>
-
-<br> what if any include or can incorporate responsive design
-<br><br>

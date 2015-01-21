@@ -11,6 +11,7 @@ body{
   font-family: arial;
   background: #f7f7f7;
   padding: 20px;
+  box-shadow: 0 0 20px 0 #333;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 }
 
   a:visited, a:link {
@@ -32,23 +33,40 @@ h3{
   margin: 0 0 5px 0;
 }
 
-.lift{
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+.projects{
+  width: 65%;
+  float: left;
+}
+
+.lift-left{
   background: white;
   padding: 10px 10px 10px 40px;
   /* box-shadow: 4px 4px 0 0 #777; */  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
   border-top: 1px solid #333;
   border-right: 1px solid #333;
   border-bottom: 1px solid #333;
-  width: 65%;
+  width: 100%;
   margin: 0 0 0 -40px;
   float: left;
 }
 
-.drop{
+.drop-left{
   padding: 0 16px 0 40px;
   font-size: 3px;
   background: #333;
-  width: 65%;
+  width: 100%;
   margin: 6px 0 0 -40px;
 }
 
@@ -58,5 +76,42 @@ h3{
   border-left: 20px solid transparent;
   border-top: 20px solid #333;
   margin: 0 0 0 -40px;
-
 }
+
+.trainings{
+  width: 25%;
+  float: right;
+}
+
+  .lift-right{
+    background: white;
+    padding: 10px 40px 10px 10px;
+    /* box-shadow: 4px 4px 0 0 #777; */  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+    border-top: 1px solid #333;
+    border-left: 1px solid #333;
+    border-bottom: 1px solid #333;
+    width: 100%;
+    margin: 0 -40px 0 0;
+    float: right;
+    clear: both;
+  }
+
+  .drop-right{
+    padding: 0 40px 0 16px;
+    font-size: 3px;
+    background: #333;
+    width: 95%;
+    margin: 0 -40px 0 0;
+    float: right;
+  }
+
+  .wrap-right {
+    align: right;
+    width: 0;
+    height: 0;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #333;
+    margin: 0 -40px 0 0;
+    float: right;
+    clear: both;
+  }

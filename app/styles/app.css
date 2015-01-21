@@ -1,5 +1,5 @@
 html {
-  background: #ddd;
+  background: #646464;
   padding: 0 40px;
 
 }
@@ -11,7 +11,7 @@ body{
   font-family: arial;
   background: #f7f7f7;
   padding: 20px;
-  box-shadow: 0 0 20px 0 #aaa;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  box-shadow: 0 0 20px 0 #262626;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 }
 
   a:visited, a:link {
@@ -66,7 +66,7 @@ h3{
 .drop-left{
   padding: 0 16px 0 40px;
   font-size: 3px;
-  background: #666;
+  background: #262626;
   width: 100%;
   margin: 6px 0 0 -40px;
 }
@@ -75,7 +75,7 @@ h3{
   width: 0;
   height: 0;
   border-left: 20px solid transparent;
-  border-top: 20px solid #666;
+  border-top: 20px solid #262626;
   margin: 0 0 0 -40px;
 }
 
@@ -101,7 +101,7 @@ h3{
   .drop-right{
     padding: 0 40px 0 16px;
     font-size: 3px;
-    background: #666;
+    background: #262626;
     width: 95%;
     margin: 0 -40px 0 0;
     float: right;
@@ -112,7 +112,7 @@ h3{
     width: 0;
     height: 0;
     border-right: 20px solid transparent;
-    border-top: 20px solid #666;
+    border-top: 20px solid #262626;
     margin: 0 -40px 0 0;
     float: right;
     clear: both;
@@ -132,7 +132,7 @@ h3{
   .drop-full{
     padding: 0 40px 0 40px;
     font-size: 3px;
-    background: #666;
+    background: #262626;
     width: 100%;
     margin: 0 -40px 0 -40px;
     float: right;
@@ -142,7 +142,7 @@ h3{
     width: 0;
     height: 0;
     border-left: 20px solid transparent;
-    border-top: 20px solid #666;
+    border-top: 20px solid #262626;
     margin: 0 0 0 -40px;
     float: left;
   }

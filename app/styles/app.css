@@ -11,7 +11,7 @@ body{
   font-family: arial;
   background: #f7f7f7;
   padding: 20px;
-  box-shadow: 0 0 20px 0 #262626;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  box-shadow: 0 0 20px 0 #262626;
 }
 
   a:visited, a:link {
@@ -80,7 +80,7 @@ h3{
 }
 
 .trainings{
-  width: 25%;
+  width: 28%;
   float: right;
 }
 
@@ -146,3 +146,9 @@ h3{
     margin: 0 0 0 -40px;
     float: left;
   }
+
+.thumb img{
+  height: 100px;
+  display: inline;
+  float: left;
+}

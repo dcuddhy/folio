@@ -1,4 +1,55 @@
+
+.menu {
+color: white;
+  padding: 20px 0 0 0;
+  background: black;
+  width: 60px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0 0 0 -60px;
+  transition-property: left;
+  transition-duration: 0.5s, 0.5s;
+  transition-timing-function: ease;
+  height: 100%;
+ }
+
+.wrap:hover .menu {
+color: white;
+  transition-property: left;
+  transition-duration: 0.5s, 0.5s;
+  transition-timing-function: ease;
+  padding: 20px;
+  width: 80px;
+  background: black;
+  height: 100%;
+  left: 60px; /* show menu when main area is hovered over */
+}
+
+.menu a:visited, .menu a:link {
+  color: white;
+  text-decoration: none;
+
+}
+
+.menu a:hover {
+    text-decoration: underline;
+  }
+
+.menu a:active{
+    color: #19377b;
+      text-decoration: none;
+  }
+
+.logo{
+  margin: -5px -33px 0 0;
+  background: black;
+  padding: 5px 10px 5px 0;
+  float: right;
+}
+
 html {
+  height: 100%;
   background: #646464;
   padding: 0 40px;
 
@@ -151,4 +202,8 @@ h3{
   height: 100px;
   display: inline;
   float: left;
+}
+
+.footer{
+text-align: right;
 }

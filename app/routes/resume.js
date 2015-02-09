@@ -34,9 +34,19 @@ export default Ember.Route.extend({
             'A Jekyll template.'},
 
    { thumb: '<img src= "http://amcuae.com/wp-content/uploads/2014/01/734465_602209193174852_791866153_n.jpg" >',
+      name: 'Markdown Editor',
+      desc: 'Mustache, AJAX, HTML5 Audio & CSS. <br>' +
+            'A simple music player. A simple music player.'},
+
+   { thumb: '<img src= "http://amcuae.com/wp-content/uploads/2014/01/734465_602209193174852_791866153_n.jpg" >',
       name: 'Music Player',
       desc: 'Mustache, AJAX, HTML5 Audio & CSS. <br>' +
-            'A simple music player.'}
+            'A simple music player.'},
+
+   { thumb: '<img src= "http://www.mikeledda.com/img/pic-edison-displays-home.jpg" >',
+      name: 'Local Notes',
+      desc: 'CSS, SASS, Mustache, Awesome Bootsrap <br>' +
+            'Users host their own local data in browser for unmatched security.'}
     ];
 }
 

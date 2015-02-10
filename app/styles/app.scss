@@ -1,6 +1,10 @@
+@import 'fonts';
+
 .clearfix { display: inline-block; }
 * html .clearfix { height: 1%; }
 .clearfix { display: block; }
+
+
 
 html {
   height: 100%;
@@ -11,11 +15,11 @@ html {
 
 body{
   border-top: 10px solid #19377b;
-  max-width: 960px;
+  max-width: 920px;
   margin: 0 auto;
-  font-family: arial;
+  font-family: 'mulilight';
   background: #f7f7f7;
-  padding: 20px;
+  padding: 20px 40px 20px 40px;
   box-shadow: 0 0 20px 0 #262626;
 }
 
@@ -28,15 +32,15 @@ body{
   position: absolute;
   top: 0;
   margin: -40px -50px 0 40px;
-  transition-duration: 0.6s, 0.6s;
+  transition-duration: 0.4s, 0.4s;
   transition-timing-function: ease-in;
   height: 40px;
 }
 
 .top-wrap:hover .top-menu {
   color: white;
-  transition-timing-function: ease-in;
-  transition-duration: 0.6s, 0.6s;
+  transition-timing-function: ease-out;
+  transition-duration: 0.4s, 0.4s;
   padding: 0 10px 0 10px;
   width: 900px;
   background: #19377b;
@@ -50,7 +54,7 @@ body{
     height: 0;
     border-right: 20px solid transparent;
     border-top: 20px solid #262626;
-    margin: -31px -20px 0 0;
+    margin: -31px 0 0 -40px;
     float: right;
     clear: both;
   }
@@ -58,16 +62,11 @@ body{
 .top-logo{
   width: 100%;
   color: white;
-  margin: -30px 0 0 -20px;
+  margin: -30px 0 0 -40px;
   background: #19377b;
-  padding: 3px 23px 5px 17px;
+  padding: 3px 43px 5px 37px;
   display: block;
 }
-
-
-
-
-
 
 
 .menu {
@@ -117,7 +116,6 @@ body{
   }
 
 .menu a:active, .top-menu a:active{
-    color: ;
       text-decoration: none;
   }
 
@@ -128,6 +126,63 @@ body{
   float: right;
 }
 
+
+
+
+
+.header-table-1{
+  display: inline;
+  float: left;
+  padding: 0 15px 15px 0;
+  @media (max-width: 790px) {
+  width: 0;
+  display: none;
+  }
+}
+
+.header-table-2{
+  display: inline;
+  float: left;
+  padding: 0 15px 15px 0;
+  @media (max-width: 790px) {
+  display: block;
+  float: center;
+  text-align: center;
+  }
+}
+
+.header-table-2 img{
+  @media (max-width: 790px) {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 -12px 0 0;
+  }
+}
+
+.header-table-3{
+  margin: 0 0 40px 0;
+  font-size: 16pt;
+/*   line-height: 2;
+ */  display: inline;
+  float: left;
+  padding: 0 15px 15px 0;
+  @media (max-width: 1000px) {
+  width: 0;
+  display: none;
+  }
+}
+
+.header-table-3 p{
+  display: inline;
+  margin: 30px 0 50px 0;
+  @media (max-width: 1000px) {
+
+  }
+}
+
+.break{
+    clear: both;
+}
 
 
   a:visited, a:link {
@@ -165,14 +220,14 @@ h3{
 
 .lift-left{
   background: white;
-  padding: 10px 10px 10px 40px;
+  padding: 10px 10px 10px 50px;
   /* box-shadow: 4px 4px 0 0 #777; */  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
   border-top: 1px solid #000;
   border-right: 1px solid #000;
   border-left: 1px solid #ccc;
   border-bottom: 1px solid #000;
   width: 100%;
-  margin: 0 0 0 -40px;
+  margin: 0 0 0 -60px;
   float: left;
 }
 
@@ -181,7 +236,7 @@ h3{
   font-size: 3px;
   background: #262626;
   width: 100%;
-  margin: 6px 0 0 -40px;
+  margin: 6px 0 0 -60px;
 }
 
 .wrap-left {
@@ -189,7 +244,7 @@ h3{
   height: 0;
   border-left: 20px solid transparent;
   border-top: 20px solid #262626;
-  margin: 0 0 0 -40px;
+  margin: 0 0 0 -60px;
 }
 
 .trainings{
@@ -199,14 +254,14 @@ h3{
 
   .lift-right{
     background: white;
-    padding: 10px 40px 10px 10px;
+    padding: 10px 50px 10px 10px;
     /* box-shadow: 4px 4px 0 0 #777; */  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
     border-top: 1px solid #000;
     border-left: 1px solid #000;
     border-right: 1px solid #ccc;
     border-bottom: 1px solid #000;
     width: 100%;
-    margin: 0 -40px 0 0;
+    margin: 0 -60px 0 0;
     float: right;
     clear: both;
   }
@@ -216,7 +271,7 @@ h3{
     font-size: 3px;
     background: #262626;
     width: 95%;
-    margin: 0 -40px 0 0;
+    margin: 0 -60px 0 0;
     float: right;
   }
 
@@ -226,7 +281,7 @@ h3{
     height: 0;
     border-right: 20px solid transparent;
     border-top: 20px solid #262626;
-    margin: 0 -40px 0 0;
+    margin: 0 -60px 0 0;
     float: right;
     clear: both;
   }
@@ -237,17 +292,17 @@ h3{
     border-left: 1px solid #ccc;
     border-top: 1px solid #000;
     border-bottom: 1px solid #000;
-    padding: 10px 40px 10px 40px;
+    padding: 10px 60px 10px 60px;
     width: 100%;
-    margin: 0 -40px 0 -40px;
+    margin: 0 -60px 0 -60px;
   }
 
   .drop-full{
-    padding: 0 41px 0 40px;
+    padding: 0 61px 0 60px;
     font-size: 3px;
     background: #262626;
     width: 100%;
-    margin: 0 -41px 0 -40px;
+    margin: 0 -61px 0 -60px;
     float: right;
   }
 
@@ -256,7 +311,7 @@ h3{
     height: 0;
     border-left: 20px solid transparent;
     border-top: 20px solid #262626;
-    margin: 0 0 0 -40px;
+    margin: 0 0 0 -60px;
     float: left;
   }
 

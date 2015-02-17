@@ -45,7 +45,7 @@ body{
   width: 900px;
   background: #19377b;
   height: 40px;
-  margin: -55px -50px 0 40px;
+  margin: -57px -50px 0 40px;
   top: 40px; /* show menu when main area is hovered over */
 }
 
@@ -71,12 +71,13 @@ body{
 
 .menu {
   color: white;
+  background: red;
+  width: 40px;
   padding: 20px 0 0 0;
-  background: #19377b;
   width: 60px;
   position: absolute;
   top: 0;
-  left: 0;
+  left: 160px;
   margin: 0 0 0 -60px;
   transition-duration: 0.6s, 0.6s;
   transition-timing-function: ease-in;
@@ -85,13 +86,13 @@ body{
 
 .wrap:hover .menu {
   color: white;
+  background: #19377b;
+  width: 80px;
   transition-timing-function: ease-in;
   transition-duration: 0.6s, 0.6s;
   padding: 20px;
-  width: 80px;
-  background: #19377b;
   height: 100%;
-  left: 60px; /* show menu when main area is hovered over */
+  left: 220px;
 }
 
   .wrap-menu {
@@ -135,7 +136,6 @@ body{
   float: left;
   padding: 0 15px 15px 0;
   @media (max-width: 790px) {
-  width: 0;
   display: none;
   }
 }
@@ -143,7 +143,7 @@ body{
 .header-table-2{
   display: inline;
   float: left;
-  padding: 0 15px 15px 0;
+  padding: 0 20px 20px 0;
   @media (max-width: 790px) {
   display: block;
   float: center;
@@ -159,25 +159,28 @@ body{
   }
 }
 
-.header-table-3{
+.header-table-3 {
   margin: 0 0 40px 0;
   font-size: 16pt;
 /*   line-height: 2;
  */  display: inline;
   float: left;
-  padding: 0 15px 15px 0;
+  padding: 0 20px 20px 0;
   @media (max-width: 1000px) {
-  width: 0;
   display: none;
   }
 }
 
 .header-table-3 p{
-  display: inline;
-  margin: 30px 0 50px 0;
-  @media (max-width: 1000px) {
+  vertical-align: text-top;
 
-  }
+  display: inline;
+  margin: 10px 0 50px 0;
+}
+
+.header-table-3 img{
+  display: inline;
+  margin: 0 0 -2px 0;
 }
 
 .break{
@@ -214,7 +217,7 @@ h3{
 }
 
 .projects{
-  width: 65%;
+  width: 67%;
   float: left;
 }
 
@@ -248,7 +251,7 @@ h3{
 }
 
 .trainings{
-  width: 28%;
+  width: 30%;
   float: right;
 }
 

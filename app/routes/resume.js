@@ -5,13 +5,13 @@ export default Ember.Route.extend({
     return [
   {  thumb: '<img src= "http://www.mikeledda.com/img/thumb-andela-website.jpg" >',
       name: 'The Beard Club',
-      desc: 'Ruby on Rails, Twitter Bootstrap, Custom CSS, Permissions <br>' +
-            'APIs - Facebook, Tumblr, Flickr, Instagram, 500px, 4,100 followers <br>'},
+      desc: 'Ruby on Rails, Bootstrap, Custom CSS, Permissions <br>' +
+            'APIs - Facebook, Tumblr, Instagram, 4,100 followers.'},
 
    { thumb: '<img src= "assets/screenshots/dcp-sm-bx.jpg" >',
       name: 'Drew Cuddhy Photography',
       desc: 'Custom CSS, JavaScript, Wordpress, Storefront <br>' +
-            'Eye-Fi Inegration through Flickr for live blogging events.<br>'},
+            'Eye-Fi Inegration for live blogging events.'},
 
    { thumb: '<img src= "http://amcuae.com/wp-content/uploads/2014/01/734465_602209193174852_791866153_n.jpg" >',
       name: 'This Website',
@@ -25,7 +25,7 @@ export default Ember.Route.extend({
 
    { thumb:'<img src= "assets/screenshots/gcamp-sm-bx.jpg" >',
       name: 'gCamp',
-      desc: 'Ruby on Rails, Twitter Bootsrap, Extensive Associations & Permissions <br>' +
+      desc: 'Ruby on Rails, Bootsrap, Associations & Permissions <br>' +
             'A Rails app inspired by as Basecamp.'},
 
    { thumb: '<img src= "http://www.mikeledda.com/img/pic-edison-displays-home.jpg" >',

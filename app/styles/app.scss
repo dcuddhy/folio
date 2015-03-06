@@ -84,8 +84,9 @@ body{
 
 .title{
   font-size: 16pt;
+  width: 200px;
 }
-
+/* #### it's the existance of the projects title that is bumping the elements down funny */
 .wrap:hover .menu {
   color: white;
   background: #19377b;

@@ -249,9 +249,10 @@ h3{
   float: right;
 }
 
+
 .lift-right{
   background: white;
-  padding: 10px 50px 10px 10px;
+  padding: 10px 50px 18px 10px;
   /* box-shadow: 4px 4px 0 0 #777; */  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
   border-top: 1px solid $shadowGrey;
   border-left: 1px solid $shadowGrey;
@@ -261,6 +262,18 @@ h3{
   margin: 0 -55px 0 0;
   float: right;
   clear: both;
+}
+
+/* .trainings .one, .trainings .three{
+  padding-bottom: 18px;
+} */
+
+.trainings .two{
+  padding-bottom: 25px;
+}
+
+.trainings .bump-up{
+  margin-top: -6px;
 }
 
 .wrap-right {

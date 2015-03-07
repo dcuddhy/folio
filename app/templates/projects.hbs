@@ -1,17 +1,13 @@
 {{outlet}}
 
-<center>  <h2>Projects</h2> </center>
-<br>
-
-
-
-
-
-
+<div class="title">
+  About
+</div>
 
   <div class = "lift-full">
-    <h3>{{name}}</h3>
-    {{{desc}}}
+    This is a thing that is about my projects and the way that I like to
+    design. And these are words that describe what I like about this that
+    and the other. Colors, dynamic, style, css, and other things.
   </div>
   <div class = "drop-full">
     &nbsp;
@@ -21,36 +17,30 @@
   <div class = "wrap-full">
   </div>
 
-<br><br><br><br><br>
-
+<div class="title">
+  Projects
+</div>
 
 
 <div class="clearfix">
-  <div class="projects">
+  <div class="">
     {{#each}}
-    <div class = "lift-left">
+    <div class = "lift-full">
       <h3>{{name}}</h3>
-      {{{desc}}}
+      <h3>Description</h3>
+      {{{desc}}}<br><br>
+      <h3>Technical Notes</h3>
+      {{{tech}}}
     </div>
-    <div class = "drop-left">
-      &nbsp;
-    </div>
-    <div class = "wrap-left">
-    </div>
-    {{/each}}
-  </div>
-
-  <div class="trainings">
-    {{#each training in trainings}}
-    <div class = "lift-right">
-      <h3>{{title}}</h3>
-      {{{text}}}
-    </div>
-    <div class = "drop-right">
+    <div class = "drop-full">
       &nbsp;
     </div>
     <div class = "wrap-right">
     </div>
+    <div class = "wrap-full">
+    </div>
     {{/each}}
   </div>
+
+
 </div>

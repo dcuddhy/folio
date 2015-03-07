@@ -25,8 +25,8 @@ body{
 .top-menu {
   color: white;
   padding: 0 10px 0 10px;
-  background: #19377b;
-  width: 900px;
+  background: $menuBlue;
+  width: 170px;
   position: absolute;
   top: 0;
   margin: -40px -50px 0 40px;
@@ -36,13 +36,8 @@ body{
 }
 
 .top-wrap:hover .top-menu {
-  color: white;
   transition-timing-function: ease-out;
   transition-duration: 0.4s, 0.4s;
-  padding: 0 10px 0 10px;
-  width: 900px;
-  background: #19377b;
-  height: 40px;
   margin: -57px -50px 0 40px;
   top: 40px; /* show menu when main area is hovered over */
 }
@@ -65,7 +60,6 @@ body{
   padding: 3px 43px 5px 37px;
   display: block;
 }
-
 
 .menu {
   color: white;
@@ -98,15 +92,15 @@ body{
   left: 220px;
 }
 
-  .wrap-menu {
-    width: 0;
-    height: 0;
-    border-right: 20px solid transparent;
-    border-top: 20px solid #262626;
-      margin: -31px -20px 0 0;
-    float: right;
-    clear: both;
-  }
+.wrap-menu {
+  width: 0;
+  height: 0;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #262626;
+    margin: -31px -20px 0 0;
+  float: right;
+  clear: both;
+}
 
 .menu a:visited, .menu a:link, .top-menu a:visited, .top-menu a:link {
   color: white;

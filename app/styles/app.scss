@@ -208,6 +208,9 @@ h3{
 .projects{
   width: 67%;
   float: left;
+  @media (max-width: 850px) {
+  width: 90%;
+}
 }
 
 .lift-left{
@@ -241,8 +244,18 @@ h3{
 .trainings{
   width: 30%;
   float: right;
+  @media (max-width: 850px) {
+  display: none;
+}
 }
 
+.reveal{
+  display: none;
+  @media (max-width: 850px) {
+  display: block;
+  width: 300px;
+}
+}
 
 .lift-right{
   background: white;
@@ -309,7 +322,28 @@ h3{
   height: 110px;
   display: inline;
   float: left;
+  @media (max-width: 700px) {
+  display: block;
+  float: center;
+  margin: 10px auto;
 }
+}
+
+.thumb h3{
+  @media (max-width: 700px) {
+  display: block;
+  float: center;
+  width: 250px;
+  min-width: 100px;
+  margin: 0 auto;
+  padding-left: 80px;
+}
+  @media (max-width: 505px) {
+  width: 220px;
+}
+}
+
+
 
 .projects-left{
   float: left;

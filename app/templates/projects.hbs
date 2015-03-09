@@ -3,7 +3,6 @@
 <div class="title">
   About
 </div>
-
   <div class = "lift-full">
     This is a thing that is about my projects and the way that I like to
     design. And these are words that describe what I like about this that
@@ -26,11 +25,17 @@
   <div class="">
     {{#each}}
     <div class = "lift-full">
-      <h3>{{name}}</h3>
-      <h3>Description</h3>
-      {{{desc}}}<br><br>
-      <h3>Technical Notes</h3>
-      {{{tech}}}
+      <div class="projects-left">
+        <h3>{{name}}</h3>
+        {{{thumb}}}
+        <br>GitHub • Live Site
+      </div>
+      <div class="projects-right">
+        <h3>Description</h3>
+        {{{desc}}}<br><br>
+        <h3>Technical Notes</h3>
+        {{{tech}}}
+      </div>
     </div>
     <div class = "drop-full">
       &nbsp;

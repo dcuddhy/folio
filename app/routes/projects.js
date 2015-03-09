@@ -4,7 +4,7 @@ export default Ember.Route.extend({
 
   model: function() {
     return [
-  {  thumb: '<img src= "http://www.mikeledda.com/img/thumb-andela-website.jpg" >',
+  {  thumb: '<img src= "assets/screenshots/tbcdc-sm-lil.jpg" >',
       name: 'The Beard Club',
       desc: 'A curated collection of beard-centric content for those ' +
             'who like facial hair - but is not restricted to just those ' +
@@ -23,7 +23,7 @@ export default Ember.Route.extend({
             'Responsive Design <br>' +
             'SVG graphics'},
 
-   { thumb: '<img src= "assets/screenshots/dcp-sm-bx.jpg" >',
+   { thumb:'<img src= "assets/screenshots/gcamp-sm-lil.jpg" >',
       name: 'gCamp',
       desc: 'A Ruby on Rails app that has been the foundation of my understanding' +
             'of the framework. It features users of various classes who can add ' +
@@ -49,7 +49,7 @@ export default Ember.Route.extend({
   //     desc: 'Ruby on Rails, Javascript, Mustache, Custom CSS <br>' +
   //           'Like Twitter, but better.'},
 
-   { thumb:'<img src= "assets/screenshots/gcamp-sm-bx.jpg" >',
+   { thumb: '<img src= "assets/screenshots/dcp-sm-lil.jpg" >',
       name: 'Drew Cuddhy Photography',
       desc: 'A pre-gSchool project! Originally set up as a photography ' +
             'portfolio, it acts as a place for potential clients to see my ' +
@@ -65,23 +65,23 @@ export default Ember.Route.extend({
   //     desc: 'CSS, SASS, Mustache, Awesome Bootsrap <br>' +
   //           'A Jekyll template.'},
 
-   { thumb: '<img src= "http://www.mikeledda.com/img/pic-edison-displays-home.jpg" >',
+   { thumb: '<img src= "assets/screenshots/notes-sm-bxr.jpg" >',
       name: 'Notes',
-      desc: 'Notes joins the front and back end in a super snappy fast note' +
-            'taking app, was inspired by Stickies.',
+      desc: 'Notes joins the frontend and backend in a super snappy fast note' +
+            'taking app. Inspired by Stickies.',
       tech: 'Ruby on Rails Backend <br>' +
             'Ember Frontend <br>' +
             'JavaScript <br>' +
             'Flash Notifications'},
 
-   { thumb: '<img src= "assets/screenshots/listen-sm-bx.jpg" >',
+   { thumb: '<img src= "assets/screenshots/listen-sm-lil.jpg" >',
       name: 'Listen',
       desc: 'A one page music player. Simple. Elegant.',
       tech: 'Jquery <br>' +
             'AJAX <br>' +
             'Mustache <br>'},
 
-   { thumb: '<img src= "assets/screenshots/mde-sm-bx.jpg" >',
+   { thumb: '<img src= "assets/screenshots/mde-sm-bxr-lil.jpg" >',
       name: 'Markdown Editor',
       desc: 'A simple, but well-designed markdown editor.',
       tech: 'Google Fonts <br>'}

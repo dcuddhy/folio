@@ -6,6 +6,8 @@ export default Ember.Route.extend({
     return [
   {  thumb: '<img src= "assets/screenshots/tbcdc-sm-lil.jpg" >',
       name: 'The Beard Club',
+    github: '<a href= "https://github.com/dcuddhy/tbcdc" target="_blank"> GitHub </a> •',
+      live: '<a href= "https://tbcdc.herokuapp.com" target="_blank"> Live Site </a>',
       desc: 'A curated collection of beard-centric content for those ' +
             'who like facial hair - but is not restricted to just those ' +
             'who have it.<br><br>' +
@@ -25,6 +27,8 @@ export default Ember.Route.extend({
 
    { thumb:'<img src= "assets/screenshots/gcamp-sm-lil.jpg" >',
       name: 'gCamp',
+    github: '<a href= "https://github.com/dcuddhy/gCamp" target="_blank"> GitHub </a> •',
+      live: '<a href= "https://mysterious-citadel-5725.herokuapp.com/" target="_blank"> Live Site </a>',
       desc: 'A Ruby on Rails app that has been the foundation of my understanding' +
             'of the framework. It features users of various classes who can add ' +
             'or be added to projects. It stands to be an excellent group ' +
@@ -51,9 +55,11 @@ export default Ember.Route.extend({
 
    { thumb: '<img src= "assets/screenshots/dcp-sm-lil.jpg" >',
       name: 'Drew Cuddhy Photography',
+    github: '',
+      live: '<a href= "http://www.drewcuddhy.com" target="_blank"> Live Site </a>',
       desc: 'A pre-gSchool project! Originally set up as a photography ' +
             'portfolio, it acts as a place for potential clients to see my ' +
-            'work and current clients to place orders and get sneak peaks at' +
+            'work and current clients to place orders and get sneak peaks at ' +
             'their own collections.',
       tech: 'Customized Javascript Photo Gallery <br>' +
             'Wordpress Blog with Flickr & EyeFi API integration for live photo blogging. <br>' +
@@ -67,7 +73,9 @@ export default Ember.Route.extend({
 
    { thumb: '<img src= "assets/screenshots/notes-sm-bxr.jpg" >',
       name: 'Notes',
-      desc: 'Notes joins the frontend and backend in a super snappy fast note' +
+    github: '<a href= "https://github.com/dcuddhy/localnotes" target="_blank"> GitHub </a> •',
+      live: '<a href= "https://warm-island-1114.herokuapp.com/notes" target="_blank"> Live Site </a>',
+      desc: 'Notes joins the frontend and backend in a super snappy fast note ' +
             'taking app. Inspired by Stickies.',
       tech: 'Ruby on Rails Backend <br>' +
             'Ember Frontend <br>' +
@@ -76,6 +84,8 @@ export default Ember.Route.extend({
 
    { thumb: '<img src= "assets/screenshots/listen-sm-lil.jpg" >',
       name: 'Listen',
+    github: '<a href= "https://github.com/dcuddhy/listen" target="_blank"> GitHub </a> •',
+      live: '<a href= "http://development.listendrewcuddhy.divshot.io/" target="_blank"> Live Site </a>',
       desc: 'A one page music player. Simple. Elegant.',
       tech: 'Jquery <br>' +
             'AJAX <br>' +
@@ -83,6 +93,8 @@ export default Ember.Route.extend({
 
    { thumb: '<img src= "assets/screenshots/mde-sm-bxr-lil.jpg" >',
       name: 'Markdown Editor',
+    github: '<a href= "https://github.com/dcuddhy/markdowneditor" target="_blank"> GitHub </a> •',
+      live: '<a href= "https://hidden-cliffs-5294.herokuapp.com/" target="_blank"> Live Site </a>',
       desc: 'A simple, but well-designed markdown editor.',
       tech: 'Google Fonts <br>'}
     ];

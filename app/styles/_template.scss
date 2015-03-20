@@ -1,0 +1,85 @@
+/* ### MENU ### */
+.top-menu {
+  color: white;
+  padding: 0 10px 0 10px;
+  background: $menuBlue;
+  width: 170px;
+  position: absolute;
+  top: 0;
+  margin: -40px -50px 0 40px;
+  transition-duration: 0.4s, 0.4s;
+  transition-timing-function: ease-in;
+  height: 40px;
+}
+
+.top-wrap:hover .top-menu {
+  transition-timing-function: ease-out;
+  transition-duration: 0.4s, 0.4s;
+  margin: -57px -50px 0 40px;
+  top: 40px; /* show menu when main area is hovered over */
+}
+
+.top-logo{
+  width: 100%;
+  color: white;
+  margin: -30px 0 0 -40px;
+  background: #19377b;
+  padding: 3px 43px 5px 37px;
+  display: block;
+}
+
+.menu a:visited, .menu a:link, .top-menu a:visited, .top-menu a:link {
+  color: white;
+  text-decoration: none;
+}
+
+.menu a:hover, .top-menu a:hover {
+  text-decoration: underline;
+}
+
+.menu a:active, .top-menu a:active{
+  text-decoration: none;
+}
+
+/* ### Header ### */
+
+.header-table-2{
+  display: inline;
+  float: left;
+  padding: 0 20px 20px 0;
+  @media (max-width: 790px) {
+  display: block;
+  float: center;
+  text-align: center;
+  }
+}
+
+.header-table-2 img{
+  @media (max-width: 790px) {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 -12px 0 0;
+  }
+}
+
+.header-table-3 {
+  margin: 0 0 40px 0;
+  font-size: 16pt;
+  display: inline;
+  float: left;
+  padding: 0 20px 20px 0;
+  @media (max-width: 1000px) {
+  display: none;
+  }
+}
+
+.header-table-3 p{
+  vertical-align: text-top;
+  display: inline;
+  margin: 10px 0 50px 0;
+}
+
+.header-table-3 img{
+  display: inline;
+  margin: 0 0 -2px 0;
+}

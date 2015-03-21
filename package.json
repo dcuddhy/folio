@@ -8,6 +8,7 @@
   },
   "scripts": {
     "start": "ember server",
+    "deploy": "ember build --environment production && scp -r dist/* thebear3@thebeardclub.com:/home1/thebear3/public_html/coffeepants",
     "build": "ember build",
     "test": "ember test"
   },

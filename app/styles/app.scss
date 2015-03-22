@@ -1,5 +1,6 @@
 @import 'fonts';
 @import 'colors';
+@import 'template';
 
 .clearfix { display: inline-block; }
 * html .clearfix { height: 1%; }
@@ -382,4 +383,9 @@ h3{
 
 .footer{
   text-align: right;
+}
+
+h3 img{
+  height: 17.5px;
+  vertical-align: -10%;
 }

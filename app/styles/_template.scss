@@ -83,3 +83,25 @@
   display: inline;
   margin: 0 0 -2px 0;
 }
+
+.card{
+  font-size: 13.4pt;
+  background: white;
+  border: 1px solid $shadowGrey;
+  height: 187px;
+  width: 350px;
+  padding: 15px;
+  font-weight: 100;
+}
+
+.card span{
+  font-size: 17.8pt;
+}
+
+.card i{
+  font-size: 14pt;
+}
+
+.right{
+  text-align: right;
+}

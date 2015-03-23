@@ -4,7 +4,7 @@ export default Ember.Route.extend({
 
   model: function() {
     return [
-  {  thumb: '<img src= "assets/screenshots/tbcdc-sm-lil.jpg" >',
+  {  thumb: '<a href= "https://tbcdc.herokuapp.com" target="_blank"> <img src= "assets/screenshots/tbcdc-sm-lil.jpg" > </a>',
       name: 'The Beard Club',
     github: '<a href= "https://github.com/dcuddhy/tbcdc" target="_blank"> GitHub </a> •',
       live: '<a href= "https://tbcdc.herokuapp.com" target="_blank"> Live Site </a>',
@@ -25,7 +25,7 @@ export default Ember.Route.extend({
             'Responsive Design <br>' +
             'SVG graphics'},
 
-   { thumb:'<img src= "assets/screenshots/gcamp-sm-lil.jpg" >',
+   { thumb:'<a href= "https://mysterious-citadel-5725.herokuapp.com/" target="_blank"> <img src= "assets/screenshots/gcamp-sm-lil.jpg" > </a>',
       name: 'gCamp',
     github: '<a href= "https://github.com/dcuddhy/gCamp" target="_blank"> GitHub </a> •',
       live: '<a href= "https://mysterious-citadel-5725.herokuapp.com/" target="_blank"> Live Site </a>',
@@ -53,8 +53,8 @@ export default Ember.Route.extend({
   //     desc: 'Ruby on Rails, Javascript, Mustache, Custom CSS <br>' +
   //           'Like Twitter, but better.'},
 
-   { thumb: '<img src= "assets/screenshots/dcp-sm-lil.jpg" >',
-      name: 'Drew Cuddhy Photography',
+   { thumb: '<a href= "http://www.drewcuddhy.com" target="_blank"> <img src= "assets/screenshots/dcp-sm-lil.jpg" > </a>',
+      name: '<a href= "http://www.drewcuddhy.com" target="_blank"> Drew Cuddhy Photography </a>',
     github: '',
       live: '<a href= "http://www.drewcuddhy.com" target="_blank"> Live Site </a>',
       desc: 'A pre-gSchool project! Originally set up as a photography ' +
@@ -71,7 +71,7 @@ export default Ember.Route.extend({
   //     desc: 'CSS, SASS, Mustache, Awesome Bootsrap <br>' +
   //           'A Jekyll template.'},
 
-   { thumb: '<img src= "assets/screenshots/notes-sm-bxr.jpg" >',
+   { thumb: '<a href= "https://warm-island-1114.herokuapp.com/notes" target="_blank"> <img src= "assets/screenshots/notes-sm-bxr.jpg" > </a>',
       name: 'Notes',
     github: '<a href= "https://github.com/dcuddhy/localnotes" target="_blank"> GitHub </a> •',
       live: '<a href= "https://warm-island-1114.herokuapp.com/notes" target="_blank"> Live Site </a>',
@@ -82,7 +82,7 @@ export default Ember.Route.extend({
             'JavaScript <br>' +
             'Flash Notifications'},
 
-   { thumb: '<img src= "assets/screenshots/listen-sm-lil.jpg" >',
+   { thumb: '<a href= "http://development.listendrewcuddhy.divshot.io/" target="_blank"> <img src= "assets/screenshots/listen-sm-lil.jpg" > </a>',
       name: 'Listen',
     github: '<a href= "https://github.com/dcuddhy/listen" target="_blank"> GitHub </a> •',
       live: '<a href= "http://development.listendrewcuddhy.divshot.io/" target="_blank"> Live Site </a>',
@@ -91,7 +91,7 @@ export default Ember.Route.extend({
             'AJAX <br>' +
             'Mustache <br>'},
 
-   { thumb: '<img src= "assets/screenshots/mde-sm-bxr-lil.jpg" >',
+   { thumb: '<a href= "https://hidden-cliffs-5294.herokuapp.com/" target="_blank"> <img src= "assets/screenshots/mde-sm-bxr-lil.jpg" > </a>',
       name: 'Markdown Editor',
     github: '<a href= "https://github.com/dcuddhy/markdowneditor" target="_blank"> GitHub </a> •',
       live: '<a href= "https://hidden-cliffs-5294.herokuapp.com/" target="_blank"> Live Site </a>',

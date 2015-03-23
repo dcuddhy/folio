@@ -37,6 +37,7 @@ export default Ember.Route.extend({
             ' -User: user@example.com <br>' +
             ' -Pass: password',
       tech: 'Ruby on Rails <br>' +
+            'RSpec Tests <br>' +
             'Authorizations <br>' +
             'Associations <br>' +
             'Permissions <br>' +
@@ -71,10 +72,10 @@ export default Ember.Route.extend({
   //     desc: 'CSS, SASS, Mustache, Awesome Bootsrap <br>' +
   //           'A Jekyll template.'},
 
-   { thumb: '<a href= "https://warm-island-1114.herokuapp.com/notes" target="_blank"> <img src= "assets/screenshots/notes-sm-bxr.jpg" > </a>',
+   { thumb: '<a href= "https://warm-island-1114.herokuapp.com" target="_blank"> <img src= "assets/screenshots/notes-sm-bxr.jpg" > </a>',
       name: 'Notes',
     github: '<a href= "https://github.com/dcuddhy/localnotes" target="_blank"> GitHub </a> •',
-      live: '<a href= "https://warm-island-1114.herokuapp.com/notes" target="_blank"> Live Site </a>',
+      live: '<a href= "https://warm-island-1114.herokuapp.com" target="_blank"> Live Site </a>',
       desc: 'Notes joins the frontend and backend in a super snappy fast note ' +
             'taking app. Inspired by Stickies.',
       tech: 'Ruby on Rails Backend <br>' +

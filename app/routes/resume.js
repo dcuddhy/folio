@@ -21,7 +21,7 @@ export default Ember.Route.extend({
             'JavaScript image gallery, Wordpress, custom CSS <br>' +
             'shopping cart, live photo blogging integration. <br>'},
 
-   { thumb: '<a href= "https://warm-island-1114.herokuapp.com/notes" target="_blank"> <img src= "assets/screenshots/notes-sm-bxr.jpg" > </a>',
+   { thumb: '<a href= "https://warm-island-1114.herokuapp.com" target="_blank"> <img src= "assets/screenshots/notes-sm-bxr.jpg" > </a>',
       name: '<a href= "https://github.com/dcuddhy/localnotes" target="_blank"> <img src= "assets/favicons/notes-favi.svg"> Notes </a>',
       desc: 'A Stickies inspired note taking app. <br>' +
             'Ruby on Rails backend, Ember CLI frontend, Font <br>' +

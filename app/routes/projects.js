@@ -54,7 +54,7 @@ export default Ember.Route.extend({
   //           'Like Twitter, but better.'},
 
    { thumb: '<a href= "http://www.drewcuddhy.com" target="_blank"> <img src= "assets/screenshots/dcp-sm-lil.jpg" > </a>',
-      name: '<a href= "http://www.drewcuddhy.com" target="_blank"> Drew Cuddhy Photography </a>',
+      name: 'Drew Cuddhy Photography',
     github: '',
       live: '<a href= "http://www.drewcuddhy.com" target="_blank"> Live Site </a>',
       desc: 'A pre-gSchool project! Originally set up as a photography ' +

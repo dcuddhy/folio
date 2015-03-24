@@ -38,9 +38,9 @@ export default Ember.Route.extend({
             ' -Pass: password',
       tech: 'Ruby on Rails <br>' +
             'RSpec Tests <br>' +
+            'Authentications <br>' +
             'Authorizations <br>' +
             'Associations <br>' +
-            'Permissions <br>' +
             'Twitter Bootstrap <br>' +
             'Multiple Application Layouts'},
 

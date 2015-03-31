@@ -141,6 +141,8 @@ body{
   display: block;
   float: center;
   text-align: center;
+  width: 350px;
+  margin: 0 auto;
   }
 }
 
@@ -155,8 +157,7 @@ body{
 .header-table-3 {
   margin: 0 0 40px 0;
   font-size: 16pt;
-/*   line-height: 2;
- */  display: inline;
+  display: inline;
   float: left;
   padding: 0 20px 20px 0;
   @media (max-width: 1000px) {

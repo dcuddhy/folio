@@ -44,17 +44,18 @@ export default Ember.Route.extend({
             'Twitter Bootstrap <br>' +
             'Multiple Application Layouts'},
 
-  //  { thumb: '<a href= "http://www.drewcuddhy.com" target="_blank"> <img src= "assets/screenshots/dcf-sm-lil.jpg" > </a>',
-  //     name: 'Personal Portfolio',
-  //   github: '<a href= "https://github.com/dcuddhy/folio" target="_blank"> GitHub </a> •',
-  //     live: '<a href= "https://www.dcuddhy.com/" target="_blank"> Live Site </a>',
-  //     desc: 'A collection of my most recent and favorite works.',
-  //     tech: 'Ember <br>' +
-  //           'Web Fonts <br>' +
-  //           'CSS Animations <br>' +
-  //           'Responsive Design <br>' +
-  //           'Sass <br>' +
-  //           'SVG <br>'},
+   { thumb: '<a href= "http://www.drewcuddhy.com" target="_blank"> <img src= "assets/screenshots/dcf-sm-lil.jpg" > </a>',
+      name: 'Personal Portfolio',
+    github: '<a href= "https://github.com/dcuddhy/folio" target="_blank"> GitHub </a> •',
+      live: '<a href= "https://www.dcuddhy.com/" target="_blank"> Live Site </a>',
+      desc: 'A collection of my most recent and favorite works, ' +
+            'served from a Linux server.',
+      tech: 'Ember <br>' +
+            'Web Fonts <br>' +
+            'CSS Animations <br>' +
+            'Responsive Design <br>' +
+            'Sass <br>' +
+            'SVG <br>'},
 
   //  { thumb: '<img src= "http://www.mikeledda.com/img/thumb-andela-website.jpg" >',
   //     name: 'Rantly',

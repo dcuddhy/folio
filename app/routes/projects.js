@@ -22,7 +22,7 @@ export default Ember.Route.extend({
             'As of Spring 2015, The Beard Club has over 4,100 followers on Facebook.',
       tech: 'API Calls from Facebook, Instagram, & Tumblr <br>' +
             'Custom CSS & Sass <br>' +
-            'Responsive Design <br>' +
+            'Responsive design <br>' +
             'SVG graphics'},
 
    { thumb:'<a href= "https://mysterious-citadel-5725.herokuapp.com/" target="_blank"> <img src= "assets/screenshots/gcamp-sm-lil.jpg" > </a>',
@@ -37,12 +37,12 @@ export default Ember.Route.extend({
             ' -User: user@example.com <br>' +
             ' -Pass: password',
       tech: 'Ruby on Rails <br>' +
-            'RSpec Tests <br>' +
+            'RSpec tests <br>' +
             'Authentications <br>' +
             'Authorizations <br>' +
             'Associations <br>' +
             'Twitter Bootstrap <br>' +
-            'Multiple Application Layouts'},
+            'Multiple application layouts'},
 
    { thumb: '<a href= "http://www.drewcuddhy.com" target="_blank"> <img src= "assets/screenshots/dcf-sm-lil.jpg" > </a>',
       name: 'Personal Portfolio',
@@ -51,11 +51,11 @@ export default Ember.Route.extend({
       desc: 'A collection of my most recent and favorite works, ' +
             'served from a Linux server.',
       tech: 'Ember <br>' +
-            'Web Fonts <br>' +
-            'CSS Animations <br>' +
-            'Responsive Design <br>' +
+            'Web fonts <br>' +
+            'CSS animations <br>' +
+            'Responsive design <br>' +
             'Sass <br>' +
-            'SVG <br>'},
+            'SVG graphics <br>'},
 
   //  { thumb: '<img src= "http://www.mikeledda.com/img/thumb-andela-website.jpg" >',
   //     name: 'Rantly',
@@ -70,8 +70,8 @@ export default Ember.Route.extend({
             'portfolio, it acts as a place for potential clients to see my ' +
             'work and current clients to place orders and get sneak peaks at ' +
             'their own collections.',
-      tech: 'Customized Javascript Photo Gallery <br>' +
-            'Wordpress Blog with Flickr & EyeFi API integration for live photo blogging. <br>' +
+      tech: 'Customized Javascript photo gallery <br>' +
+            'Wordpress blog with EyeFi API integration for live photo blogging. <br>' +
             'Implementation of third-party PHP store front <br>' +
             'Webfonts via Cufon'},
 
@@ -86,10 +86,10 @@ export default Ember.Route.extend({
       live: '<a href= "https://warm-island-1114.herokuapp.com" target="_blank"> Live Site </a>',
       desc: 'Notes joins the frontend and backend in a super snappy fast note ' +
             'taking app. Inspired by Stickies.',
-      tech: 'Ruby on Rails Backend <br>' +
-            'Ember Frontend <br>' +
+      tech: 'Ruby on Rails API <br>' +
+            'Ember frontend <br>' +
             'JavaScript <br>' +
-            'Flash Notifications'},
+            'Flash notifications'},
 
    { thumb: '<a href= "http://development.listendrewcuddhy.divshot.io/" target="_blank"> <img src= "assets/screenshots/listen-sm-lil.jpg" > </a>',
       name: 'Listen',

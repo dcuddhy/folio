@@ -124,57 +124,6 @@ body{
   float: right;
 }
 
-.header-table-1{
-  display: inline;
-  float: left;
-  padding: 0 15px 15px 0;
-  @media (max-width: 790px) {
-  display: none;
-  }
-}
-
-.header-table-2{
-  display: inline;
-  float: left;
-  padding: 0 20px 20px 0;
-  @media (max-width: 790px) {
-  display: block;
-  float: center;
-  text-align: center;
-  width: 350px;
-  margin: 0 auto;
-  }
-}
-
-.header-table-2 img{
-  @media (max-width: 790px) {
-    width: 100%;
-    max-width: 400px;
-    margin: 0 -12px 0 0;
-  }
-}
-
-.header-table-3 {
-  margin: 0 0 40px 0;
-  font-size: 16pt;
-  display: inline;
-  float: left;
-  padding: 0 20px 20px 0;
-  @media (max-width: 1000px) {
-  display: none;
-  }
-}
-
-.header-table-3 p{
-  vertical-align: text-top;
-  display: inline;
-  margin: 10px 0 50px 0;
-}
-
-.header-table-3 img{
-  display: inline;
-  margin: 0 0 -2px 0;
-}
 
 .break{
     clear: both;

@@ -25,7 +25,7 @@ export default Ember.Route.extend({
       name: '<a href= "https://github.com/dcuddhy/localnotes" target="_blank"> <img src= "assets/favicons/notes-favi.svg"> Notes </a>',
       desc: 'A Stickies inspired single page app. <br>' +
             'Ruby on Rails API, Ember CLI frontend, Font Awesome<br>' +
-            'icons, flash messages.'}
+            'icons, promises, flash messages.'}
     ];
 }
 

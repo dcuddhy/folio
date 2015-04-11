@@ -50,12 +50,13 @@ export default Ember.Route.extend({
       live: '<a href= "https://www.dcuddhy.com/" target="_blank"> Live Site </a>',
       desc: 'A collection of my most recent and favorite works, ' +
             'served from a Linux server.',
-      tech: 'Ember <br>' +
+      tech: 'Custom NPM deploy script <br>' +
+            'Ember <br>' +
             'Web fonts <br>' +
             'CSS animations <br>' +
             'Responsive design <br>' +
-            'Sass <br>' +
-            'SVG graphics <br>'},
+            'SVG graphics <br>' +
+            'Sass'},
 
   //  { thumb: '<img src= "http://www.mikeledda.com/img/thumb-andela-website.jpg" >',
   //     name: 'Rantly',
@@ -89,13 +90,15 @@ export default Ember.Route.extend({
       tech: 'Ruby on Rails API <br>' +
             'Ember frontend <br>' +
             'JavaScript <br>' +
+            'Inline editing <br>' +
+            'Promises <br>' +
             'Flash notifications'},
 
    { thumb: '<a href= "http://development.listendrewcuddhy.divshot.io/" target="_blank"> <img src= "assets/screenshots/listen-sm-lil.jpg" > </a>',
       name: 'Listen',
     github: '<a href= "https://github.com/dcuddhy/listen" target="_blank"> GitHub </a> •',
       live: '<a href= "http://development.listendrewcuddhy.divshot.io/" target="_blank"> Live Site </a>',
-      desc: 'A one page music player. Simple. Elegant.',
+      desc: 'A single page music player app. Simple. Elegant.',
       tech: 'Jquery <br>' +
             'AJAX <br>' +
             'Mustache <br>'},

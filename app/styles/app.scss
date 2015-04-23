@@ -173,6 +173,7 @@ h3{
   border-left: 1px solid #ccc;
   border-bottom: 1px solid $shadowGrey;
   width: 100%;
+  min-width: 290px;
   margin: 0 0 0 -55px;
   float: left;
 }
@@ -227,6 +228,10 @@ h3{
 } */
 
 .trainings .two{
+  padding-bottom: 25px;
+}
+
+.two{
   padding-bottom: 25px;
 }
 

@@ -70,6 +70,7 @@
     max-width: 400px;
     margin: 0 -12px 0 0;
   }
+
 }
 
 .header-table-3 {
@@ -101,14 +102,43 @@
   width: 350px;
   padding: 15px;
   font-weight: 100;
+  @media(max-width: 640px){
+  margin: 0 auto;
+  font-size: 10pt;
+  height: 144px;
+  width: 270px;
+  padding: 10px;
+  text-align: left;
+  }
+  @media(max-width: 500px){
+  align: center;
+  margin: 0 10px 0 10px;
+  font-size: 7pt;
+  height: 100px;
+  width: 200px;
+  padding: 10px;
+  text-align: left;
+  }
 }
 
 .card span{
   font-size: 17.8pt;
+  @media(max-width: 640px){
+  font-size: 14pt;
+  }
+  @media(max-width: 500px){
+  font-size: 10pt;
+  }
 }
 
 .card i{
   font-size: 14pt;
+  @media(max-width: 640px){
+  font-size: 10pt;
+  }
+  @media(max-width: 500px){
+  font-size: 7pt;
+  }
 }
 
 .right{

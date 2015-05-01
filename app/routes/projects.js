@@ -73,8 +73,9 @@ export default Ember.Route.extend({
             'their own collections.',
       tech: 'Customized Javascript photo gallery <br>' +
             'Wordpress blog with EyeFi API integration for live photo blogging. <br>' +
-            'Implementation of third-party PHP store front <br>' +
-            'Webfonts via Cufon'},
+            'PHP store front <br>' +
+            'PHP contact form <br>' +
+            'Google Fonts'},
 
   //  { thumb: '<img src= "http://www.mikeledda.com/img/pic-edison-displays-home.jpg" >',
   //     name: 'Snipits Template',
@@ -108,7 +109,8 @@ export default Ember.Route.extend({
     github: '<a href= "https://github.com/dcuddhy/markdowneditor" target="_blank"> GitHub </a> •',
       live: '<a href= "https://hidden-cliffs-5294.herokuapp.com/" target="_blank"> Live Site </a>',
       desc: 'A simple, but well-designed markdown editor.',
-      tech: 'Google Fonts <br>'}
+      tech: 'Ember <br>' +
+            'Google Fonts <br>'}
     ];
   }
 });
